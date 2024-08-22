@@ -37,9 +37,10 @@ Includes:
 Simply run the command "python bikeshare_2.py" in the terminal.
 
 ### Files used:
--bikeshare_2.py
--csv data files (need to be supplied)
+-bikeshare_2.py.
+
+-csv data files (need to be supplied).
 
 ### Credits
-Udacity Project Template
+Udacity Project Template, can be found in https://www.udacity.com/enrollment/nd104-bsf-c2
 
