@@ -50,11 +50,11 @@ def get_filters():
     while True:
         month = input("Please Enter Month name or all for no fliter: ").lower()
         
-        if month.lower() == "all":
+        if month == "all":
             print("You entered: all")
             break
 
-        if month.lower() in months:
+        if month in months:
                 print("You entered:", month)
                 break
         else:
