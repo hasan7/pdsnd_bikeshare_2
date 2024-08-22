@@ -48,13 +48,14 @@ def get_filters():
 
     
     while True:
+        #get user input for month to filter
         month = input("Please Enter Month name or all for no fliter: ").lower()
         
-        if month.lower() == "all":
+        if month == "all":
             print("You entered: all")
             break
 
-        if month.lower() in months:
+        if month in months:
                 print("You entered:", month)
                 break
         else:
@@ -64,14 +65,15 @@ def get_filters():
 
     
     while True:
-        day = input("Please Enter  day name or all for no fliter: ")
+        #get user input for day to filter
+        day = input("Please Enter  day name or all for no fliter: ").lower()
         #day = "sunday"
 
-        if day.lower() == "all":
+        if day == "all":
             print("You entered: all")
             break
 
-        elif day.lower() in days:
+        elif day in days:
                 print("You entered:", day)
                 print("user entered valid  day")
                 break
