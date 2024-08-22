@@ -34,6 +34,7 @@ Includes:
 	earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
 ### How to run:
+Make sure python is installed and running.
 Simply run the command "python bikeshare_2.py" in the terminal.
 
 ### Files used:
